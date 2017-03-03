@@ -1,4 +1,7 @@
 
+//package 方法.流.类.包.多肽.集成;
+import 方法.流.类.包.多肽.集成.Canlender;
+import 方法.流.类.包.多肽.集成.SleepDemo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,16 +16,21 @@ public class WZCText {
 //        plus plusa = new plus();
 //        plusa.hahah();
 
+        //数组
         int[] res = Myli(new int[]{1,2,3,4,5});
 
         System.out.println(Arrays.toString(res));
 
-
         arrayType add = new arrayType();
          int[] res2 = add.intiwith(res);
         System.out.println(Arrays.toString(res2));
+
+        //时间
+        getCurrentDate();
+
     }
 
+    //数组
     public static int[] Myli(int[] array){
 
         int[] result = new int[array.length];
@@ -32,6 +40,20 @@ public class WZCText {
             result[j] = array[i];
         }
         return result;
+    }
+    //时间
+    public static void  getCurrentDate(){
+
+        dataTime date = new dataTime();
+        date.currentDate();
+
+        SleepDemo sleep = new SleepDemo();
+        sleep.seleep();
+
+        //时间  Canlender
+        Canlender cander = new Canlender();
+        cander.canlenders();
+
     }
 }
 
