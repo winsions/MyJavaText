@@ -11,8 +11,8 @@ public class WZCText {
 
     public static void main(String[] args) {
 
-//        plus plusa = new plus();
-//        plusa.hahah();
+        plus plusa = new plus();
+        plusa.hahah();
 
 
         int[] res = Myli(new int[]{1,2,3,4,5});
