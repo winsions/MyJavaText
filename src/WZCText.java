@@ -3,7 +3,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-
 /**
  * Created by winsion on 2017/1/12.
  */
@@ -11,14 +10,17 @@ public class WZCText {
 
     public static void main(String[] args) {
 
-        plus plusa = new plus();
-        plusa.hahah();
-
+//        plus plusa = new plus();
+//        plusa.hahah();
 
         int[] res = Myli(new int[]{1,2,3,4,5});
 
         System.out.println(Arrays.toString(res));
 
+
+        arrayType add = new arrayType();
+         int[] res2 = add.intiwith(res);
+        System.out.println(Arrays.toString(res2));
     }
 
     public static int[] Myli(int[] array){
