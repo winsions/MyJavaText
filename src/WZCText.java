@@ -1,8 +1,10 @@
 
 //package 方法.流.类.包.多肽.集成;
+import 方法.流.类.包.多肽.集成.BRread;
 import 方法.流.类.包.多肽.集成.Canlender;
 import 方法.流.类.包.多肽.集成.SleepDemo;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -11,23 +13,28 @@ import java.util.Scanner;
  */
 public class WZCText {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
 
 //        plus plusa = new plus();
 //        plusa.hahah();
 
         //数组
-        int[] res = Myli(new int[]{1,2,3,4,5});
+//        int[] res = Myli(new int[]{1,2,3,4,5});
+//
+//        System.out.println(Arrays.toString(res));
+//q
+//        arrayType add = new arrayType();
+//         int[] res2 = add.intiwith(res);
+//        System.out.println(Arrays.toString(res2));
+//        //时间
+//        getCurrentDate();
 
-        System.out.println(Arrays.toString(res));
 
-        arrayType add = new arrayType();
-         int[] res2 = add.intiwith(res);
-        System.out.println(Arrays.toString(res2));
-
-        //时间
-        getCurrentDate();
-
+        //流读取后天内容
+        BRread read = new BRread();
+//        read.ReadFrom();
+//        read.sysout();
+        read.creatNewfile();
     }
 
     //数组
