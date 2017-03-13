@@ -1,8 +1,6 @@
 
 //package 方法.流.类.包.多肽.集成;
-import 方法.流.类.包.多肽.集成.BRread;
-import 方法.流.类.包.多肽.集成.Canlender;
-import 方法.流.类.包.多肽.集成.SleepDemo;
+import 方法.流.类.包.多肽.集成.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,10 +12,8 @@ import java.util.Scanner;
 public class WZCText {
 
     public static void main(String[] args) throws IOException{
-
 //        plus plusa = new plus();
 //        plusa.hahah();
-
         //数组
 //        int[] res = Myli(new int[]{1,2,3,4,5});
 //
@@ -28,13 +24,19 @@ public class WZCText {
 //        System.out.println(Arrays.toString(res2));
 //        //时间
 //        getCurrentDate();
-
-
         //流读取后天内容
-        BRread read = new BRread();
+//        BRread read = new BRread();
 //        read.ReadFrom();
 //        read.sysout();
-        read.creatNewfile();
+//        read.creatNewfile();
+        //抽象类
+
+        Salary a = new Salary("WZC","珠海",44,33.33);
+        Employee e = new Salary("小萝莉","山东",20,1.56);
+        a.checkmail();
+        e.checkmail();
+        a.computePay();
+
     }
 
     //数组
